@@ -6,80 +6,96 @@
 - Repository: goroyattemiyo/yattemiyo-tools-site
 - Target branch: feat/initial-portfolio
 - Base branch: main
-- Updated: 2026-09-24 JST
+- Updated: 2026-09-25 JST
 
 ## Current Goal
 
-Create the first local-previewable one-page portfolio for Yattemiyo Tools.
+Create a polished one-page Yattemiyo Tools portfolio using the current night / moon / Konshu brand direction.
 
 Acceptance criteria:
 
-- [x] Static HTML + CSS only
-- [x] Yattemiyo Tools concept visible above the fold
-- [x] No.001 Threads Posting Tool shown as the featured product
-- [x] File / Dev / Media future tool families visible
-- [x] About / Build in Public included
-- [x] No build step or external dependency
-- [ ] User visual check on Windows
+- [x] Premium black / navy / indigo visual direction
+- [x] Generated moon imagery integrated into the actual HTML
+- [x] Generated cosmic / crescent decoration integrated into the actual HTML
+- [x] Header and footer use the same Konshu brand icon
+- [x] `コンシュ / Konshu` name is visible without explanatory character copy
+- [x] No.001 Threads Posting Tool remains the featured product
+- [x] Copy is intentionally concise
+- [x] Desktop and mobile layouts render without horizontal overflow
+- [ ] User final visual acceptance
 - [ ] GitHub Pages publication
 
 ## Current Status
 
-- implemented-unverified
+- `checked`
 
-GitHub Actions cannot be used until the user's current limit resets in October 2026.
-Do not use CI or GitHub Actions as part of this phase.
+The visual redesign is implemented and browser-rendered locally. Publication remains deferred.
+
+GitHub Actions cannot be used until the user's account limit resets in October 2026. Do not use CI or GitHub Actions for this phase.
 
 ## Completed
 
-- Initial one-page structure
-- Responsive CSS
-- Local-preview instructions
-- Project handoff
+- Consistent Konshu brand icon for header/footer/favicon
+- Hero visual slider: moon / Konshu workshop / Konshu night
+- Generated moon image integrated
+- Generated moonlit landscape integrated into Philosophy
+- Generated cosmic texture integrated into tool/build surfaces
+- Generated gold crescent ornament integrated into headings/About
+- About split into creator + `コンシュ / Konshu`
+- Small explanatory filler copy reduced
+- Current Phase 1 is a self-contained `index.html` with embedded visual assets
+- Responsive static site retained with no framework or build step
 
 ## Remaining
 
-- User local visual review
-- Copy / layout adjustment from real browser feedback
-- Decide logo / icon
+- User final visual review
+- Adjust wording / spacing only if review finds a concrete issue
+- Confirm final Threads / note links before public release
 - Add Privacy / Terms / Support before Plugin publication
-- Publish only after local acceptance
+- Enable public hosting only after acceptance
 
 ## Decisions / Spec Changes
 
-- Old: GitHub Pages could be enabled during initial implementation.
-- New: publication is deferred; local browser verification is the only current visual gate.
-- No framework for Phase 1. Add Astro or another framework only when multiple pages make plain HTML hard to maintain.
+- Old visual direction: light / ivory Modern Freeware.
+- New visual direction: premium nocturnal black / navy / indigo with restrained moonlight gold.
+- Old mascot treatment: placeholder / explanatory "guide / watcher" copy.
+- New mascot treatment: Konshu is shown as a brand character with the name only; no unnecessary role explanation.
+- Header/footer icon mismatch is eliminated: both use the same embedded asset.
+- `styles.css` is no longer required; CSS, JS and current image assets are embedded in `index.html` for the one-page phase.
 
 ## Important Files
 
 - `index.html`
-- `styles.css`
 - `README.md`
 - `LATEST_HANDOFF.md`
 
 ## Verification
 
-- [x] Static source review
-- [ ] Manual browser check
-- [ ] Responsive visual check on actual browser
+- [x] static review
+- [x] desktop browser render: 1440 x 1000
+- [x] mobile browser render: 390 x 844
+- [x] no horizontal overflow in either viewport
+- [x] JavaScript slider initialized without page errors
+- [ ] user manual review
 - [ ] GitHub Pages
+- [ ] CI (intentionally not run)
 
-CI:
-- Status: Not run
-- Reason: Actions unavailable until October 2026; CI is intentionally excluded.
+## CI
+
+- Status: `Not run`
+- Reason: GitHub Actions unavailable until October 2026 and intentionally excluded from this phase.
 
 ## Next Action
 
-1. Clone / switch to `feat/initial-portfolio`.
-2. Open `index.html` locally.
-3. Review desktop and narrow-window layout.
-4. Report visual / wording changes.
-5. Apply minimal fixes on the same Draft PR.
+1. User reviews the current HTML visually.
+2. Apply only concrete visual/copy corrections.
+3. Keep Draft PR until local acceptance.
+4. Add public/legal pages before Plugin publication.
 
 ## Do Not
 
 - Do not run or add GitHub Actions for this phase.
-- Do not enable deployment before local acceptance.
+- Do not enable deployment before user acceptance.
 - Do not introduce npm / Astro / React yet.
-- Do not rewrite working sections without a concrete usability reason.
+- Do not re-add verbose explanatory mascot copy.
+- Do not invent product metrics, versions, release dates, or usage counts.

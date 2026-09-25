@@ -7,12 +7,13 @@ Official portfolio / product site for **Yattemiyo Tools**.
 ## Current status
 
 - Phase 1: one-page static portfolio
-- HTML + CSS only
+- **Single self-contained `index.html`**
+- CSS / JavaScript / visual assets are embedded in the HTML
 - No build step
 - No npm dependencies
 - GitHub Actions: **do not use until the account limit resets in October 2026**
 - GitHub Pages deployment: deferred
-- Verification: local browser only for now
+- Current verification gate: local browser review
 
 ## Local preview on Windows
 
@@ -23,11 +24,31 @@ git switch feat/initial-portfolio
 start .\index.html
 ```
 
-No server or install is required for the current version.
+No server or install is required.
+
+## Visual direction
+
+- black / midnight navy / indigo
+- restrained moonlight gold accents
+- moon motif
+- Konshu mascot
+- concise copy; tools remain the main subject
+
+The same Konshu brand icon is used in the header and footer. `コンシュ / Konshu` is presented separately in the About area without explanatory character lore.
+
+## Structure
+
+- Hero + 3-image visual slider
+- Featured Tool: Threads Posting Tool
+- Next Tools
+- Philosophy
+- Build in Public
+- About / Konshu
+- Footer
 
 ## Planned growth
 
-Phase 1 starts as a single page. When content grows, split into pages such as:
+When content grows, split into pages such as:
 
 - `/tools/threads`
 - `/about`
@@ -35,4 +56,4 @@ Phase 1 starts as a single page. When content grows, split into pages such as:
 - `/privacy`
 - `/terms`
 
-Do not add a framework until the one-page structure becomes a real maintenance problem.
+At that point, move embedded assets out of `index.html` and consider a framework only if plain HTML becomes a real maintenance problem.
