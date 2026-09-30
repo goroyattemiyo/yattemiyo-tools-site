@@ -38,7 +38,7 @@ The same Konshu brand icon is used in the header and footer. `コンシュ / Kon
 
 ## Structure
 
-- Hero + 3-image visual slider
+- Hero + quiet 3-image visual slider (no counter / labels)
 - Featured Tool: Threads Posting Tool
 - Next Tools
 - Philosophy
@@ -49,7 +49,7 @@ The same Konshu brand icon is used in the header and footer. `コンシュ / Kon
 ## Current sections
 
 - Tools
-- AI Plugin Lab (ChatGPT / MCP / future Claude / Gemini expansion)
+- AI Plugin Lab (verified ChatGPT case + MCP-centered Claude / Gemini portability plan)
 - Philosophy
 - Build in Public
 - About
