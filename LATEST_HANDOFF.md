@@ -36,6 +36,8 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 
 ## Completed
 
+- Silent visual slider: removed VISUAL count/pause/slide labels; images now lead with only arrows and progress dots
+- Information design pass: English micro-labels reduced across Tools / Philosophy / Build / About
 - Consistent Konshu brand icon for header/footer/favicon
 - Hero visual slider: moon / Konshu workshop / Konshu night
 - Generated moon image integrated
@@ -43,8 +45,8 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - Generated cosmic texture integrated into tool/build surfaces
 - Generated gold crescent ornament integrated into headings/About
 - About split into creator + `コンシュ / Konshu`
-- AI Plugin Lab redesigned as a real case-study area: CASE 001 Threads Posting, architecture, lab notes, field log, and cross-AI portability experiment
-- Small explanatory filler copy reduced
+- AI Plugin Lab simplified into a clearer evidence-first layout: one verified case, one architecture view, three design principles, and next-port targets
+- Small explanatory filler copy reduced further; non-essential English micro-labels removed
 - Current Phase 1 is a self-contained `index.html` with embedded visual assets
 - Plugin Lab separates verified facts from next targets: ChatGPT / OAuth / live publish are shown as verified; Claude / Gemini remain planned compatibility work
 - Responsive static site retained with no framework or build step
@@ -82,7 +84,7 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - [x] mobile browser render: 390 x 844
 - [x] no horizontal overflow in either viewport
 - [x] JavaScript slider initialized without page errors
-- [x] Plugin Lab static structure / responsive rules reviewed
+- [x] Simplified Plugin Lab structure / responsive rules reviewed
 - [x] Lab content grounded in verified 2026-09-30 Threads Posting results
 - [ ] user manual review
 - [ ] GitHub Pages
