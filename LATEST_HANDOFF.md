@@ -6,7 +6,7 @@
 - Repository: goroyattemiyo/yattemiyo-tools-site
 - Target branch: feat/initial-portfolio
 - Base branch: main
-- Updated: 2026-09-25 JST
+- Updated: 2026-09-30 JST
 
 ## Current Goal
 
@@ -21,6 +21,7 @@ Acceptance criteria:
 - [x] `コンシュ / Konshu` name is visible without explanatory character copy
 - [x] No.001 Threads Posting Tool remains the featured product
 - [x] Copy is intentionally concise
+- [x] AI Plugin Lab added for ChatGPT / MCP / future Claude / Gemini expansion
 - [x] Desktop and mobile layouts render without horizontal overflow
 - [ ] User final visual acceptance
 - [ ] GitHub Pages publication
@@ -42,12 +43,16 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - Generated cosmic texture integrated into tool/build surfaces
 - Generated gold crescent ornament integrated into headings/About
 - About split into creator + `コンシュ / Konshu`
+- AI Plugin Lab section added with `ChatGPT = CURRENT`, `Claude / Gemini = NEXT`, and `MCP CORE` as the portable layer
 - Small explanatory filler copy reduced
 - Current Phase 1 is a self-contained `index.html` with embedded visual assets
+- Plugin Lab intentionally does not claim Claude / Gemini implementation is complete; they are shown as next targets
 - Responsive static site retained with no framework or build step
 
 ## Remaining
 
+- Implement and verify the same MCP tool flow on Claude when scheduled
+- Implement and verify Gemini custom-app compatibility when eligible / available
 - User final visual review
 - Adjust wording / spacing only if review finds a concrete issue
 - Confirm final Threads / note links before public release
@@ -56,6 +61,7 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 
 ## Decisions / Spec Changes
 
+- Plugin Lab direction: portfolio should accumulate evidence of cross-AI Plugin / MCP integration expertise, not just claim expertise.
 - Old visual direction: light / ivory Modern Freeware.
 - New visual direction: premium nocturnal black / navy / indigo with restrained moonlight gold.
 - Old mascot treatment: placeholder / explanatory "guide / watcher" copy.
@@ -76,6 +82,7 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - [x] mobile browser render: 390 x 844
 - [x] no horizontal overflow in either viewport
 - [x] JavaScript slider initialized without page errors
+- [x] Plugin Lab static structure / responsive rules reviewed
 - [ ] user manual review
 - [ ] GitHub Pages
 - [ ] CI (intentionally not run)
