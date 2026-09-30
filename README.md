@@ -46,6 +46,14 @@ The same Konshu brand icon is used in the header and footer. `コンシュ / Kon
 - About / Konshu
 - Footer
 
+## Current sections
+
+- Tools
+- AI Plugin Lab (ChatGPT / MCP / future Claude / Gemini expansion)
+- Philosophy
+- Build in Public
+- About
+
 ## Planned growth
 
 When content grows, split into pages such as:
