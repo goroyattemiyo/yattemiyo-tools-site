@@ -43,10 +43,10 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - Generated cosmic texture integrated into tool/build surfaces
 - Generated gold crescent ornament integrated into headings/About
 - About split into creator + `コンシュ / Konshu`
-- AI Plugin Lab section added with `ChatGPT = CURRENT`, `Claude / Gemini = NEXT`, and `MCP CORE` as the portable layer
+- AI Plugin Lab redesigned as a real case-study area: CASE 001 Threads Posting, architecture, lab notes, field log, and cross-AI portability experiment
 - Small explanatory filler copy reduced
 - Current Phase 1 is a self-contained `index.html` with embedded visual assets
-- Plugin Lab intentionally does not claim Claude / Gemini implementation is complete; they are shown as next targets
+- Plugin Lab separates verified facts from next targets: ChatGPT / OAuth / live publish are shown as verified; Claude / Gemini remain planned compatibility work
 - Responsive static site retained with no framework or build step
 
 ## Remaining
@@ -83,6 +83,7 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - [x] no horizontal overflow in either viewport
 - [x] JavaScript slider initialized without page errors
 - [x] Plugin Lab static structure / responsive rules reviewed
+- [x] Lab content grounded in verified 2026-09-30 Threads Posting results
 - [ ] user manual review
 - [ ] GitHub Pages
 - [ ] CI (intentionally not run)
