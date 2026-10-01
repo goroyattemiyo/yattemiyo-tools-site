@@ -131,3 +131,5 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - Removed visible project numbers, technical tags, status labels, verification chips, architecture micro-panels, and numbered build-step cards from the main content presentation.
 - Repository/source verification remains mandatory internally; verified details should not automatically become homepage microcopy.
 - Goal: a first-time visitor should understand the kind of tool from the title, short explanation, and visual without reading metadata.
+
+- 2026-10-01 copy clarification: showcase #02 is labeled `LINEスタンプ作成ツール` so the use case is immediately understandable. Its description explicitly covers both static and animated stickers; APNG remains an implementation capability rather than the product headline.
