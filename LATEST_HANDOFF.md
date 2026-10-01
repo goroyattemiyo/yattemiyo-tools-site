@@ -124,3 +124,10 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - Generated showcase images are presentation visuals, not literal screenshots/specification evidence.
 - Browser render validation remains user/manual because automated browser navigation is blocked in the current environment.
 - GitHub Actions were not run.
+
+## 2026-10-01 Title + explanation + image
+
+- Public presentation rule changed to: heading + 1–2 line explanation + large image.
+- Removed visible project numbers, technical tags, status labels, verification chips, architecture micro-panels, and numbered build-step cards from the main content presentation.
+- Repository/source verification remains mandatory internally; verified details should not automatically become homepage microcopy.
+- Goal: a first-time visitor should understand the kind of tool from the title, short explanation, and visual without reading metadata.
