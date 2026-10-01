@@ -109,3 +109,18 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - Do not introduce npm / Astro / React yet.
 - Do not re-add verbose explanatory mascot copy.
 - Do not invent product metrics, versions, release dates, or usage counts.
+
+## 2026-10-01 Project Showcase Integration
+
+- Replaced placeholder tool cards with five grounded project showcase cards:
+  1. Threads Posting Tool
+  2. Yattemiyo Sticker Tools
+  3. WMS Android
+  4. AI Music Score Lab
+  5. Irodori TTS Studio
+- Added generated section visuals under `assets/showcase/`.
+- Portfolio copy is based on repository-verified current scope/status; no Smart Rename / Log Packager placeholders remain.
+- AI Music Score Lab is explicitly labeled `編集ドラフト検証中`; the visual is a concept illustration and does not assert musical approval.
+- Generated showcase images are presentation visuals, not literal screenshots/specification evidence.
+- Browser render validation remains user/manual because automated browser navigation is blocked in the current environment.
+- GitHub Actions were not run.
