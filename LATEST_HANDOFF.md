@@ -6,7 +6,7 @@
 - Repository: goroyattemiyo/yattemiyo-tools-site
 - Target branch: feat/initial-portfolio
 - Base branch: main
-- Updated: 2026-09-30 JST
+- Updated: 2026-10-28 JST
 
 ## Current Goal
 
@@ -107,7 +107,7 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - Do not run or add GitHub Actions for this phase.
 - Do not enable deployment before user acceptance.
 - Do not introduce npm / Astro / React yet.
-- Do not re-add verbose explanatory mascot copy.
+- Do not add verbose mascot role copy. The concise approved Konshu origin copy in `MUSE_HANDOFF.md` is the current exception.
 - Do not invent product metrics, versions, release dates, or usage counts.
 
 ## 2026-10-01 Project Showcase Integration
@@ -133,3 +133,16 @@ GitHub Actions cannot be used until the user's account limit resets in October 2
 - Goal: a first-time visitor should understand the kind of tool from the title, short explanation, and visual without reading metadata.
 
 - 2026-10-01 copy clarification: showcase #02 is labeled `LINEスタンプ作成ツール` so the use case is immediately understandable. Its description explicitly covers both static and animated stickers; APNG remains an implementation capability rather than the product headline.
+
+## 2026-10-28 Muse Handoff Preparation
+
+- Added root `MUSE_HANDOFF.md` as the first document Muse / another AI should read before redesigning the site.
+- Added `docs/SITE_COPY.md` with the concise public-facing copy snapshot.
+- Added reusable canonical brand assets under `assets/brand/`: approved Konshu master, web Konshu, brand icon, hero moon, crescent, and cosmic background.
+- Existing five showcase visuals remain under `assets/showcase/`.
+- README was corrected: the repository is no longer described as fully self-contained because showcase/brand assets now exist as external files.
+- Latest public information rule remains: heading + 1–2 line explanation + large image; technical micro-labels should not dominate the homepage.
+- Latest Konshu copy approved for the next design: 「エジプトの月の神をルーツに持つ、Yattemiyo Toolsのマスコット。月夜と、新しい道具が生まれる場所に現れます。」
+- Konshu must use the canonical asset and must not be regenerated/redrawn.
+- Showcase #02 public heading is `LINEスタンプ作成ツール`; it includes both static and animated stickers. APNG is a capability, not the whole product identity.
+- No deployment, merge, or GitHub Actions run as part of this handoff preparation.
